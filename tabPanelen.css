@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: whitesmoke;
+    background-color:  #505050;
 }
 
 img {
@@ -11,20 +11,20 @@ h1 {
     text-align: center;
 }
 
-.knoppen {
+.panelen {
     overflow: hidden;
     
 }
 
-.knoppen li {
+.panelen li {
     list-style-type: none;
     float: left;
     border-style: solid;
-    border-width: medium;
+    border-width: thin ;
     background-color: azure;
     
 }
-.knoppen li.actief {
+.panelen li.actief {
     background-color: cornflowerblue; 
     
 }

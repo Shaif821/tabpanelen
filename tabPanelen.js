@@ -1,4 +1,4 @@
-$('.knoppen').each( function() {
+$('.panelen').each( function() {
     var dezeKnop = $(this);
     var actieveKnop = dezeKnop.find('li.actief');
     var link = actieveKnop.find('a');
