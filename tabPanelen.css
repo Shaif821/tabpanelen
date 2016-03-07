@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+img {
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.knoppen {
+    overflow: hidden;
+    
+}
+
+.knoppen li {
+    list-style-type: none;
+    float: left;
+    border-style: solid;
+    border-width: medium;
+    background-color: azure;
+    
+}
+.knoppen li.actief {
+    background-color: cornflowerblue; 
+    
+}
+.paneel {
+    display: none; 
+}
+.paneel.actief {
+  display:block; !important;
+}
+.paneel img {
+    max-width: 100%;
+}
