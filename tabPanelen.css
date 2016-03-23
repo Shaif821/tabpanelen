@@ -11,12 +11,12 @@ h1 {
     text-align: center;
 }
 
-.panelen {
+.tabpanelen {
     overflow: hidden;
     
 }
 
-.panelen li {
+.tabpanelen li {
     list-style-type: none;
     float: left;
     border-style: solid;
@@ -24,16 +24,16 @@ h1 {
     background-color: azure;
     
 }
-.panelen li.actief {
+.tabpanelen li.actief {
     background-color: cornflowerblue; 
     
 }
-.paneel {
+.tabpaneel {
     display: none; 
 }
-.paneel.actief {
+.tabpaneel.actief {
   display:block; !important;
 }
-.paneel img {
+.tabpaneel img {
     max-width: 100%;
 }
