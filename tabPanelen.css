@@ -32,8 +32,9 @@ h1 {
     display: none; 
 }
 .tabpaneel.actief {
-  display:block; !important;
+  display: block !important;
 }
+
 .tabpaneel img {
     max-width: 100%;
 }
